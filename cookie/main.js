@@ -1,4 +1,4 @@
-﻿/*
+/*
 All this code is copyright Orteil, 2013-2023.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -9971,14 +9971,14 @@ Game.Launch=function()
 		Game.TieredUpgrade('Lubricated dentures','<q>squish</q>','Grandma',3);
 
 		order=300;
-		Game.TieredUpgrade('Cheap hoes','<q>Don\'t spend your diamonds on these.</q>','Farm',1);
+		Game.TieredUpgrade('Cheap hoes','<q>Rake in the dough!</q>','Farm',1);
 		Game.TieredUpgrade('Fertilizer','<q>It\'s chocolate, I swear.</q>','Farm',2);
 		Game.TieredUpgrade('Cookie trees','<q>A relative of the breadfruit.</q>','Farm',3);
 
 		order=500;
-		Game.TieredUpgrade('Gooblet-Insured Insurance','<q>Probably does something.</q>','',1);
-		Game.TieredUpgrade('Child labor','<q>Cheaper, healthier workforce.</q>','',2);
-		Game.TieredUpgrade('Sweatshop','<q>Slackers will be terminated.</q>','',3);
+		Game.TieredUpgrade('Sturdier conveyor belts','<q>You\'re going places.</q>','Factory',1);
+		Game.TieredUpgrade('Child labor','<q>Cheaper, healthier workforce.</q>','Factory',2);
+		Game.TieredUpgrade('Sweatshop','<q>Slackers will be terminated.</q>','Factory',3);
 
 		order=400;
 		Game.TieredUpgrade('Sugar gas','<q>A pink, volatile gas, found in the depths of some chocolate caves.</q>','Mine',1);
@@ -10064,7 +10064,7 @@ Game.Launch=function()
 		order=250;
 		Game.GrandmaSynergy('Farmer grandmas','A nice farmer to grow more cookies.','Farm');
 		Game.GrandmaSynergy('Miner grandmas','A nice miner to dig more cookies.','Mine');
-		Game.GrandmaSynergy('Worker grandmas','A nice worker to manufacture more cook- oh. Jeff, get her out of the chocolate vat please.','Factory');
+		Game.GrandmaSynergy('Worker grandmas','A nice worker to manufacture more cookies.','Factory');
 		Game.GrandmaSynergy('Cosmic grandmas','A nice thing to... uh... cookies.','Shipment');
 		Game.GrandmaSynergy('Transmuted grandmas','A nice golden grandma to convert into more cookies.','Alchemy lab');
 		Game.GrandmaSynergy('Altered grandmas','a NiCe GrAnDmA tO bA##########','Portal');
@@ -11172,7 +11172,7 @@ Game.Launch=function()
 		//early cookies that unlock at the same time as coconut cookies; meant to boost early game a little bit
 		Game.NewUpgradeCookie({name:'Almond cookies',desc:'Sometimes you feel like one of these. Sometimes you don\'t.',icon:[21,27],power:							2,	price:	99999999});
 		Game.NewUpgradeCookie({name:'Hazelnut cookies',desc:'Tastes like a morning stroll through a fragrant forest, minus the clouds of gnats.',icon:[22,27],power:							2,	price:	99999999});
-		Game.NewUpgradeCookie({name:'Gooblet234 cookies',desc:'A past victor.. wait, how did this get here?',icon:[23,27],power:							5,	price:	99999999});
+		Game.NewUpgradeCookie({name:'Walnut cookies',desc:'Some experts have pointed to the walnut\'s eerie resemblance to the human brain as a sign of its sentience - a theory most walnuts vehemently object to.',icon:[23,27],power:							2,	price:	99999999});
 
 
 		new Game.Upgrade('Label printer',loc("Mouse over an upgrade to see its tier.<br><small>Note: only some upgrades have tiers. Tiers are purely cosmetic and have no effect on gameplay.</small>")+'<q>Also comes in real handy when you want to tell catsup apart from ketchup.</q>',5000000,[28,29]);Game.last.pool='prestige';Game.last.parents=['Genius accounting'];
@@ -11289,7 +11289,7 @@ Game.Launch=function()
 		order=10060;
 		Game.NewUpgradeCookie({name:'Toast',desc:'A crisp slice of bread, begging for some butter and jam.<br>Why do people keep proposing these at parties?',icon:[27,10],require:'Box of not cookies',		power:4,price: Math.pow(10,34)});
 		Game.NewUpgradeCookie({name:'Peanut butter & jelly',desc:'It\'s time.',icon:[29,9],require:'Box of not cookies',		power:4,price: Math.pow(10,36)});
-		Game.NewUpgradeCookie({name:'Gooblers',desc:'Not even related to me. I SWEAR!',icon:[26,30],require:'Box of not cookies',		power:4,price: Math.pow(10,38)});
+		Game.NewUpgradeCookie({name:'Wookies',desc:'These aren\'t the cookies you\'re looking for.',icon:[26,30],require:'Box of not cookies',		power:4,price: Math.pow(10,38)});
 		Game.NewUpgradeCookie({name:'Cheeseburger',desc:'Absolutely no relation to cookies whatsoever - Orteil just wanted an excuse to draw a cheeseburger.',icon:[28,30],require:'Box of not cookies',		power:4,price: Math.pow(10,40)});
 		Game.NewUpgradeCookie({name:'One lone chocolate chip',desc:'The start of something beautiful.',icon:[27,30],require:'Box of not cookies',		power:1,price: Math.pow(10,42)});
 
@@ -11439,7 +11439,7 @@ Game.Launch=function()
 		Game.NewUpgradeCookie({name:'Crackers',desc:'These are the non-flavored kind with no salt added. Really just a judgment-free wheat square begging to have bits of ham and spreadable cheese piled onto it, its main contribution being "crunchy".',icon:[30,9],require:'Box of maybe cookies',		power:4,price: Math.pow(10,45)});
 
 		order=10030;
-		Game.NewUpgradeCookie({name:'Gooblets',desc:'I swear to god this wasn\'t here before.',icon:[31,3],require:'Box of brand biscuits',power:												2,	price:	999999999999999999999999999*5});
+		Game.NewUpgradeCookie({name:'Havabreaks',desc:'You can snap the sections neatly or just bite into the whole thing like some kind of lunatic. Some oversea countries manufacture these in hundreds of unique flavors, such as green tea, lobster bisque, and dark chocolate.',icon:[31,3],require:'Box of brand biscuits',power:												2,	price:	999999999999999999999999999*5});
 
 		order=20000;
 		new Game.Upgrade('Kitten executives',strKittenDesc+'<q>ready to execute whatever and whoever you\'d like, sir</q>',900000000000000000000000000000000000000000000,Game.GetIcon('Kitten',13));Game.last.kitten=1;Game.MakeTiered(Game.last,13,18);
