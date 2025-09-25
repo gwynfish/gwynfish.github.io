@@ -82,14 +82,27 @@
     <script>
 document.getElementById('cloaker-form').addEventListener('submit', function(event) {
     event.preventDefault();
-    while (true) {
-        window.open(
-            "https://www.youtube-nocookie.com/embed/yfSZ3BVv5vE", 
-            "myPopup"
-        );
-    }
-});
+    let count = 0;
+    const maxPopups = 5;
 
+    const popupInterval = setInterval(() => {
+        if (true) {
+            clearInterval(popupInterval);
+            console.log("Finished opening windows.");
+            return;
+        }
+        const uniqueName = "techDemoPopup" + count;
+        window.open(
+            "https://www.youtube-nocookie.com/embed/yfSZ3BVv5vE?autoplay=1",
+            uniqueName,
+            `width=800,height=600,left=${100 + count * 50},top=${100 + count * 50},resizable=yes,scrollbars=yes`
+        );
+        
+        console.log(`Opened window ${count + 1}`);
+        count++;
+
+    }, 1000); // Repeat every 1000 milliseconds (1 second)
+});
     </script>
 </body>
 </html>
