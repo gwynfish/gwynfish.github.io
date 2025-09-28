@@ -2,60 +2,9 @@
   "cover": "cover.jpg",
   "songs": [
     {
-      "title": "St. Chroma",
+      "title": "Good Morning",
       "src": "song1.mp3"
-    },
-    {
-      "title": "Rah Tah Tah",
-      "src": "song2.mp3"
-    },
-    {
-      "title": "NOID",
-      "src": "song3.mp3"
-    },
-    {
-      "title": "DARLING, I (Official Video)",
-      "src": "song4.mp3"
-    },
-    {
-      "title": "Hey Jane",
-      "src": "song5.mp3"
-    },
-    {
-      "title": "I Killed You",
-      "src": "song6.mp3"
-    },
-    {
-      "title": "Judge Judy",
-      "src": "song7.mp3"
-    },
-    {
-      "title": "Sticky",
-      "src": "song8.mp3"
-    },
-    {
-      "title": "Take Your Mask Off",
-      "src": "song9.mp3"
-    },
-    {
-      "title": "Tomorrow",
-      "src": "song10.mp3"
-    },
-    {
-      "title": "Thought I Was Dead",
-      "src": "song11.mp3"
-    },
-    {
-      "title": "Like Him",
-      "src": "song12.mp3"
-    },
-    {
-      "title": "Balloon",
-      "src": "song13.mp3"
-    },
-    {
-      "title": "I Hope You Find Your Way Home",
-      "src": "song14.mp3"
     }
   ]
+
 }
