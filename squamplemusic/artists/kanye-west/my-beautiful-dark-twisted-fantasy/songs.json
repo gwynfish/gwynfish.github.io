@@ -1,57 +1,57 @@
 {
-  "cover": "cover.jpg",
+  "cover": "",
   "songs": [
     {
-      "title": "song1",
+      "title": "Dark Fantasy",
       "src": "song1.mp3"
     },
     {
-      "title": "song10",
-      "src": "song10.mp3"
-    },
-    {
-      "title": "song11",
-      "src": "song11.mp3"
-    },
-    {
-      "title": "song12",
-      "src": "song12.mp3"
-    },
-    {
-      "title": "song13",
-      "src": "song13.mp3"
-    },
-    {
-      "title": "song2",
+      "title": "Gorgeous",
       "src": "song2.mp3"
     },
     {
-      "title": "song3",
+      "title": "POWER",
       "src": "song3.mp3"
     },
     {
-      "title": "song4",
+      "title": "All Of The Lights (Interlude)",
       "src": "song4.mp3"
     },
     {
-      "title": "song5",
+      "title": "All Of The Lights",
       "src": "song5.mp3"
     },
     {
-      "title": "song6",
+      "title": "Monster",
       "src": "song6.mp3"
     },
     {
-      "title": "song7",
+      "title": "So Appalled",
       "src": "song7.mp3"
     },
     {
-      "title": "song8",
+      "title": "Devil In A New Dress",
       "src": "song8.mp3"
     },
     {
-      "title": "song9",
+      "title": "Runaway",
       "src": "song9.mp3"
+    },
+    {
+      "title": "Hell Of A Life",
+      "src": "song10.mp3"
+    },
+    {
+      "title": "Blame Game",
+      "src": "song11.mp3"
+    },
+    {
+      "title": "Lost In The World",
+      "src": "song12.mp3"
+    },
+    {
+      "title": "Who Will Survive In America",
+      "src": "song13.mp3"
     }
   ]
 }
