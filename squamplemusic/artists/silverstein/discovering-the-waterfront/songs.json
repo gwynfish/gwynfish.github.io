@@ -1,0 +1,16 @@
+  "cover": "cover.jpg",
+  "songs": [
+    { "title": "Your Sword Versus My Dagger", "src": "song01.mp3" },
+    { "title": "Smile In Your Sleep", "src": "song02.mp3" },
+    { "title": "Ides Of March", "src": "song03.mp3" },
+    { "title": "Fist Wrapped In Blood", "src": "song04.mp3" },
+    { "title": "Discovering The Waterfront", "src": "song05.mp3" },
+    { "title": "Defend You", "src": "song06.mp3" },
+    { "title": "My Heroine'", "src": "song07.mp3" },
+    { "title": "Always And Never", "src": "song08.mp3" },
+    { "title": "Already Dead", "src": "song09.mp3" },
+    { "title": "Three Hours Back", "src": "song10.mp3" }
+    { "title": "Call It Karma", "src": "song11.mp3" }
+    { "title": "Rodeo Clown", "src": "song12.mp3" }
+  ]
+}
